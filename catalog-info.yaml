@@ -1,21 +1,23 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: be-release-dashboard
+  name: backstage
   description: |
-    Python backend dashboard for release management.
+    Backstage is an open-source developer portal that puts the developer experience first.
   links:
-    - title: GitHub Repository
-      url: https://github.com/Sriman-COGNIWIDE/BE-Release-Dash
-    - title: Live Dashboard
-      url: http://localhost:5000
+    - title: Website
+      url: http://backstage.io
+    - title: Documentation
+      url: https://backstage.io/docs
+    - title: Storybook
+      url: https://backstage.io/storybook
+    - title: Discord Chat
+      url: https://discord.com/invite/EBHEGzX
   annotations:
-    github.com/project-slug: Sriman-COGNIWIDE/BE-Release-Dash
-    backstage.io/techdocs-ref: dir:docs
+    github.com/project-slug: backstage/backstage
+    backstage.io/techdocs-ref: dir:.
+    lighthouse.com/website-url: https://backstage.io
 spec:
-  type: service
-  lifecycle: experimental  # Valid values are: experimental, production, deprecated
-  owner: devops-team
-  system: release-management
-  providesApis:
-    - release-api
+  type: library
+  owner: CNCF
+  lifecycle: production
