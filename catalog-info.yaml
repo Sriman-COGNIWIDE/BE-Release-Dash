@@ -14,6 +14,8 @@ metadata:
     backstage.io/techdocs-ref: dir:docs
 spec:
   type: service
+  lifecycle: experimental  # Valid values are: experimental, production, deprecated
   owner: devops-team
-  lifecycle: production
   system: release-management
+  providesApis:
+    - release-api
