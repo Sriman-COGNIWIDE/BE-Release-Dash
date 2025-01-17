@@ -2,11 +2,18 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: be-release-dashboard
-  tags:
-    - backend
-    - release-dashboard
-    - python-flask
+  description: |
+    Python backend dashboard for release management.
+  links:
+    - title: GitHub Repository
+      url: https://github.com/Sriman-COGNIWIDE/BE-Release-Dash
+    - title: Live Dashboard
+      url: http://localhost:5000
+  annotations:
+    github.com/project-slug: Sriman-COGNIWIDE/BE-Release-Dash
+    backstage.io/techdocs-ref: dir:docs
 spec:
   type: service
   owner: devops-team
+  lifecycle: production
   system: release-management
