@@ -8,8 +8,8 @@ metadata:
     backstage.io/techdocs-ref: dir:docs
   tags:
     - backend
-    - release dashboard
-    - python(flask)
+    - release-dashboard
+    - python-flask
   links:
     - url: https://github.com/Sriman-COGNIWIDE/BE-Release-Dash
       title: GitHub Repository
