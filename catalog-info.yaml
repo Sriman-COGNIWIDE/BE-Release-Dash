@@ -8,7 +8,7 @@ metadata:
     - title: GitHub Repository
       url: https://github.com/Sriman-COGNIWIDE/BE-Release-Dash
     - title: Live Dashboard
-      url: http://localhost:5000
+      url: http://localhost:3001
   annotations:
     github.com/project-slug: Sriman-COGNIWIDE/BE-Release-Dash
     backstage.io/techdocs-ref: dir:docs
