@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: BE-Dashboard
+  name: Release-Dashboard
   description: |
-    Python backend dashboard for release management.
+    A release dashboard to see the images running in the clusters
   links:
     - title: GitHub Repository
       url: https://github.com/Sriman-COGNIWIDE/BE-Release-Dash
@@ -14,6 +14,6 @@ metadata:
     backstage.io/techdocs-ref: dir:docs
 spec:
   type: service
-  owner: devops-team
+  owner: RD Team
   lifecycle: production
-  system: release-management
+  system: Pair-Point
