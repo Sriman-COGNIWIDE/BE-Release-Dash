@@ -14,6 +14,6 @@ metadata:
     backstage.io/techdocs-ref: dir:docs
 spec:
   type: service
-  owner: RD Team
+  owner: rd-team
   lifecycle: production
   system: Pair-Point
