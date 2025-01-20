@@ -1,12 +1,15 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: RD-Team
+  name: rd-team
   description: Release Dashboard POC
+  annotations:
+    backstage.io/managed-by-location: url:https://github.com/Sriman-COGNIWIDE/BE-Release-Dash/blob/master/groups/rd-team.yaml
+    backstage.io/managed-by-origin-location: url:https://github.com/Sriman-COGNIWIDE/BE-Release-Dash/blob/master/groups/rd-team.yaml
 spec:
   type: team
   profile:
-    displayName: Infrastructure
+    displayName: RD Team
     email: infrastructure@example.com
     picture: https://example.com/groups/bu-infrastructure.jpeg
   members: 
