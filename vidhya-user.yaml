@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: vidhya
+  namespace: default 
+spec:
+  memberOf: [rd-team]
+  profile:
+    email: vidhya.elango@cogniwide.com
+    displayName: Vidhya
