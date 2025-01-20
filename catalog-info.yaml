@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: BE Release Dashboard
+  name: BE-Dashboard
   description: |
     Python backend dashboard for release management.
   links:
