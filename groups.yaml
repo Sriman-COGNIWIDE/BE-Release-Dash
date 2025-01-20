@@ -12,7 +12,5 @@ spec:
     displayName: RD Team
     email: infrastructure@example.com
     picture: https://example.com/groups/bu-infrastructure.jpeg
-  members: 
-    - user:default/vidhya
-    - user:default/sriman
+  members: [sriman, vidhya]
   children: []
