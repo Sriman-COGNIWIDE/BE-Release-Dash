@@ -12,8 +12,9 @@ metadata:
   annotations:
     github.com/project-slug: Sriman-COGNIWIDE/BE-Release-Dash
     backstage.io/techdocs-ref: dir:docs
+    jenkins.io/job-full-name: BE_Release_Dashboard
 spec:
   type: service
   owner: rd-team
   lifecycle: production
-  system: Pair-Point
+  system: PairPoint
