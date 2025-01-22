@@ -15,6 +15,8 @@ metadata:
     backstage.io/jenkins-only: 'true'
     jenkins.io/job-full-name: Backend-Projects/BE_RD
     backstage.io/kubernetes-id: minikube
+    backstage.io/kubernetes-namespace: ingress-nginx  
+    backstage.io/kubernetes-label-selector: 'app=release-dashboard'
 spec:
   type: service
   owner: rd-team
