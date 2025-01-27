@@ -16,7 +16,7 @@ spec:
       license:
         name: COGNIWIDE
     servers:
-      - url: http://http://localhost:3001
+      - url: http://localhost:3001
     paths:
       /platform_loe:
         get:
