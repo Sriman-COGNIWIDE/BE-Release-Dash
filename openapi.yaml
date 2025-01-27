@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: RD-api
-  description: Retrieve artist details
+  description: Retrieve environment details
 spec:
   type: openapi
   lifecycle: production
@@ -12,13 +12,24 @@ spec:
     openapi: "3.0.0"
     info:
       version: 1.0.0
-      title: Artist API
+      title: Environment API
       license:
         name: COGNIWIDE
     servers:
-      - url: http://af634da2798dd4cf7bdeb15206358551-5125373207dfaf13.elb.eu-west-2.amazonaws.com/api
+      - url: http://af634da2798dd4cf7bdeb15206358551-5125373207dfaf13.elb.eu-west-2.amazonaws.com
     paths:
-      /platform_loe:
+      /api/all-envs:
         get:
-          summary: List all images in platform_loe
-    ...
+          summary: List all environments
+          responses:
+            200:
+              description: Success
+              content:
+                application/json:
+                  schema:
+                    type: object
+                    properties:
+                      environments:
+                        type: array
+                        items:
+                          type: string
