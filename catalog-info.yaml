@@ -21,3 +21,5 @@ spec:
   type: service
   owner: rd-team
   lifecycle: production
+  system: PairPoint
+
