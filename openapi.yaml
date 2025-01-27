@@ -21,9 +21,6 @@ spec:
       /all-envs:
         get:
           summary: List all environments
-          responses:
-            200:
-              description: Success
               content:
                 application/json:
                   schema:
