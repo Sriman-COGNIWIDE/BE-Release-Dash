@@ -36,21 +36,4 @@ spec:
                           type: string
                     required:
                       - environments
-            '500':
-              description: Internal Server Error
-              content:
-                application/json:
-                  schema:
-                    type: object
-                    properties:
-                      error:
-                        type: string
-            '503':
-              description: Service Unavailable
-              content:
-                application/json:
-                  schema:
-                    type: object
-                    properties:
-                      error:
-                        type: string
+
