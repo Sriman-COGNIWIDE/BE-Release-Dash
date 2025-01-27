@@ -22,12 +22,17 @@ spec:
         get:
           summary: List all environments
           operationId: getAllEnvironments
-          content:
-            application/json:
-              schema:
-                type: object
-                properties:
-                  environments:
-                    type: array
-                    items:
-                      type: string
+          responses:
+            '200':
+              description: Successful response
+              content:
+                application/json:
+                  schema:
+                    type: object
+                    properties:
+                      environments:
+                        type: array
+                        items:
+                          type: string
+                    required:
+                      - environments
