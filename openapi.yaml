@@ -16,9 +16,9 @@ spec:
       license:
         name: COGNIWIDE
     servers:
-      - url: http://af634da2798dd4cf7bdeb15206358551-5125373207dfaf13.elb.eu-west-2.amazonaws.com
+      - url: http://af634da2798dd4cf7bdeb15206358551-5125373207dfaf13.elb.eu-west-2.amazonaws.com/api
     paths:
-      /api/all-envs:
+      /all-envs:
         get:
           summary: List all environments
           responses:
