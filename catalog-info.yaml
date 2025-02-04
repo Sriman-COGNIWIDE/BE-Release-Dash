@@ -15,7 +15,7 @@ metadata:
     backstage.io/jenkins-only: 'true'
     jenkins.io/job-full-name: Backend-Projects/BE_RD
     backstage.io/kubernetes-id: aks-pe-poc
-    backstage.io/kubernetes-label-selector: '*'
+    backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=mongo'
 spec:
   type: service
   owner: rd-team
