@@ -16,7 +16,7 @@ spec:
       license:
         name: COGNIWIDE
     servers:
-      - url: http://af634da2798dd4cf7bdeb15206358551-5125373207dfaf13.elb.eu-west-2.amazonaws.com/api
+      - url: http://127.0.0.1:5001/inventory
     paths:
       /all-envs:
         get:
