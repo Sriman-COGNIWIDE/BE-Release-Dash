@@ -21,4 +21,5 @@ spec:
   owner: rd-team
   lifecycle: production
   system: PairPoint
-
+  providesApis:
+    - RD-api
