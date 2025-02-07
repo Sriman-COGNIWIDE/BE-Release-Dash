@@ -17,7 +17,6 @@ The backend portion of the EKS-POC project is organized as follows:
 
 ### Configuration
 - `__init__.py` - Python package initialization
-- `__pycache__/` - Python bytecode cache directory
 
 ## File Organization
 
