@@ -17,13 +17,13 @@ The backend portion of the EKS-POC project is organized as follows:
 
 
 ### Application Modules
-- `login.py` - Authentication and user management
-- `inventory.py` - Inventory management functionality
-- `custsol_dash.py` - Customer solutions dashboard
-- `platform_dash.py` - Platform dashboard implementation
+- `login.py` - Handles authentication with routes for login, signup, and email verification. Stores user details like hashed passwords, OTPs, and verification status. Includes functions for generating OTPs, sending verification emails, and validating user credentials.  
+- `inventory.py` - Handles Kubernetes cluster information retrieval and caching for multiple environments. Provides routes for fetching cluster deployments, refreshing and clearing cache, and managing environment configurations. Ensures efficient data retrieval with caching and supports multiple environments specified in `.env`.  
+- `custsol_dash.py` - Manages the retrieval and caching of deployment information for customer solution clusters across multiple environments (dev, stg, prod). Provides routes for fetching customer solution data, refreshing caches, and organizing deployment versions for microservices. Integrates with Kubernetes and AWS to gather and manage deployment details.  
+- `platform_dash.py` - Manages the retrieval and caching of deployment information for platform clusters across multiple environments (dev, lit, shared, stg, prod). Provides routes for fetching platform data, refreshing caches, and organizing deployment versions for microservices. Integrates with Kubernetes and AWS to gather and manage deployment details.  
 
 ### Configuration
-- `__init__.py` - Python package initialization
+- `__init__.py` - This file sets up the Flask application, initializes the database and mail configurations, and ensures that the necessary database is created if it doesn't already exist. It also sets up CORS for the application and registers blueprints for different modules including inventory, platform dashboard, customer solution dashboard, and login. It uses environment variables for sensitive configuration like database credentials and mail settings.  
 
 ## File Organization
 
