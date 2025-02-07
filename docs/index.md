@@ -11,7 +11,7 @@ Access is secured with authentication controls, and environment configurations m
 The backend portion of the EKS-POC project is organized as follows:
 
 ### Core Files
-- **#`app.py`** - Main application entry point. It initializes and runs the Flask app, ensuring the required modules are loaded.  
+- **#`app.py`#** - Main application entry point. It initializes and runs the Flask app, ensuring the required modules are loaded.  
 - **#`.env`** - Environment configuration file that stores sensitive information like database credentials and API keys.  
 - **#`requirements.txt`** - Contains dependencies such as `Flask`, `Flask-SQLAlchemy`, `psycopg2`, `boto3`, and `requests`. Install them using `pip install -r requirements.txt`.  
 
