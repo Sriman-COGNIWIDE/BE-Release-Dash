@@ -1,6 +1,6 @@
 # RELEASE DASHBOARD PAIRPOINT
 
-### Description
+## Description
 
 The EKS-POC backend system is a comprehensive solution designed to manage and monitor multiple AWS EKS clusters across different account types. The system integrates platform-specific and customer solution dashboards to provide detailed cluster information and management capabilities. Through its platform dashboard, administrators can monitor and manage platform account clusters, while the customer solution dashboard offers dedicated visibility into customer-specific deployments.
 
