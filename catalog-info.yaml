@@ -12,7 +12,6 @@ metadata:
   annotations:
     backstage.io/techdocs-ref: dir:.
     github.com/project-slug: Sriman-COGNIWIDE/BE-Release-Dash
-    backstage.io/techdocs-ref: dir:docs
     backstage.io/jenkins-only: 'true'
     jenkins.io/job-full-name: Backend-Projects/BE_RD
     backstage.io/kubernetes-id: aks-pe-poc
