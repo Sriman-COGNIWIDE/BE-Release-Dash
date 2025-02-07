@@ -24,7 +24,6 @@ The backend portion of the EKS-POC project is organized as follows:
 ```
 EKS-POC/
 └── Backend/
-    ├── __pycache__/
     ├── __init__.py
     ├── .env
     ├── app.py
