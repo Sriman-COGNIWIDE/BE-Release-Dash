@@ -1,0 +1,12 @@
+site_name: Release Dashboard Documentation
+site_url: http://localhost:3001
+repo_url: https://github.com/Sriman-COGNIWIDE/BE-Release-Dash
+docs_dir: /input/docs
+site_dir: /output/site
+theme:
+  name: material
+plugins:
+  - techdocs-core
+  - search
+nav:
+  - Home: index.md
