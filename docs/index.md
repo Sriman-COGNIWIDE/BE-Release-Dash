@@ -25,6 +25,103 @@ The backend portion of the EKS-POC project is organized as follows:
 ### Configuration
 - **`__init__.py`** - This file sets up the Flask application, initializes the database and mail configurations, and ensures that the necessary database is created if it doesn't already exist. It also sets up CORS for the application and registers blueprints for different modules including inventory, platform dashboard, customer solution dashboard, and login. It uses environment variables for sensitive configuration like database credentials and mail settings.  
 
+# Environment Variables (`.env`)
+
+This document outlines the essential environment variables required for the application. These variables configure general settings, database connections, mail server details, cache durations, cluster mappings, and cluster labels.
+
+## General Settings
+These variables define the core application configurations, such as AWS region, application port, and cache size, ensuring smooth operation and scalability.
+```
+AWS_DEFAULT_REGION="<your-region>"
+PORT=<your-port>
+CACHE_MAX_SIZE=<your-cache-size>
+```
+
+## Database Configuration
+The database configuration variables provide authentication credentials and connection details. These ensure secure communication between the application and the database, facilitating data storage and retrieval.
+```
+DB_USER="<your-db-user>"
+DB_PWD="<your-db-password>"
+DB_ENDP="<your-db-endpoint>"
+DB_PORT=<your-db-port>
+DB_NAME="<your-db-name>"
+```
+
+## Mail Server Configuration
+Mail server settings allow the application to send emails, such as notifications and user verifications. These variables include details about the SMTP server, authentication credentials, and the default sender address.
+```
+MAIL_SERVER="<your-mail-server>"
+MAIL_PORT=<your-mail-port>
+MAIL_USERNAME="<your-mail-username>"
+MAIL_PASSWORD="<your-mail-password>"
+MAIL_DEFAULT_SENDER="<your-mail-sender>"
+```
+
+## Cache Durations
+Cache duration settings define the expiration time for cached data in different environments. This helps improve application performance by reducing redundant database queries and speeding up responses.
+```
+CACHE_DURATIONS={
+    "dev": 120,
+    "lit": 120,
+    "staging": 120,
+    "prod": 120,
+    "dab-platform-loe": 120,
+    "dab-platform-stg": 120,
+    "dab-platform-prod": 120,
+    "dab-custsol-loe": 120,
+    "dab-custsol-staging": 120,
+    "dab-custsol-prod": 120
+}
+```
+
+## Clusters and Account Names
+These variables list the Kubernetes clusters associated with different environments. They help in managing deployments, ensuring resources are correctly allocated to the appropriate clusters.
+```
+CLUSTERS={
+    "dab-platform-loe": [
+        "eks-microservices-dab-dev",
+        "eks-microservices-dab-lit",
+        "eks-dmz-dab-shared",
+        "eks-sh-dab-shared",
+        "eks-corda-dab-dev"
+    ],
+    "dab-platform-stg": [
+        "eks-microservices-dab-stg",
+        "eks-corda-dab-stg",
+        "eks-dmz-dab-stg"
+    ],
+    "dab-platform-prod": [
+        "eks-microservices-dab-prod",
+        "eks-corda-dab-prod",
+        "eks-dmz-dab-prod"
+    ],
+    "dab-custsol-loe": [
+        "eks-microservices-cs-dev",
+        "eks-dmz-cs-dev"
+    ],
+    "dab-custsol-staging": [
+        "eks-microservices-dab-csstg",
+        "eks-dmz-dab-csstg"
+    ],
+    "dab-custsol-prod": [
+        "eks-microservices-dab-csprod",
+        "eks-dmz-dab-csprod"
+    ]
+}
+```
+
+## Cluster Labels
+Cluster labels categorize and identify clusters based on their environment and purpose. These labels assist in filtering and managing deployments efficiently.
+```
+PLT_DEV_LABEL="app.kubernetes.io/component=dab"
+PLT_DEV_LABEL_KEY="app.kubernetes.io/component"
+PLT_DEV_LABEL_VALUE="dab"
+CS_DEV_LABEL_KEY="app.kubernetes.io/component"
+CS_DEV_LABEL_VALUE="dab"
+PLT_LABELLED_CLUSTER="eks-microservices-dab-dev"
+CS_LABELLED_CLUSTER="eks-microservices-cs-dev"
+```
+
 ## File Organization
 
 ```
