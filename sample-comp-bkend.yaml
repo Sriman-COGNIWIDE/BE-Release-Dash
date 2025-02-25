@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-project
+  description: This is a sample project
+  annotations:
+    github.com/project-slug: https://github.com/my-org/my-project
+spec:
+  type: service
+  lifecycle: production
+  owner: artist-relations-team
+  system: my-org
