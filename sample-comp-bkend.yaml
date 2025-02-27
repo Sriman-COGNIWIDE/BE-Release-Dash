@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: tag-component
+  name: taganothercomponent
   description: This is a sample project
   annotations:
     github.com/project-slug: https://github.com/my-org/my-project
