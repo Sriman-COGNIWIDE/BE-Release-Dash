@@ -1,14 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: taganothercomponent
-  description: This is a sample project
-  annotations:
-    github.com/project-slug: https://github.com/my-org/my-project
+  name: TAG-2-PROJECT
+  description: This is a test project created via API
   tags:
-    - java
+    - test,api,demo
+  annotations:
+    github.com/project-slug: https://github.com/Sriman-COGNIWIDE/BE-Release-Dash
 spec:
   type: service
   lifecycle: production
-  owner: artist-relations-team
-  system: my-org
+  owner: group:default/team-a
+  system: Engineering
