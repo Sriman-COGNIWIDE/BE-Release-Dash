@@ -1,10 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: TAG-2-PROJECT
+  name: TAG-3-PROJECT
   description: This is a test project created via API
   tags:
-    - test,api,demo
+    - test
+    - api
+    - demo
   annotations:
     github.com/project-slug: https://github.com/Sriman-COGNIWIDE/BE-Release-Dash
 spec:
