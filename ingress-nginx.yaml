@@ -7,6 +7,6 @@ metadata:
     - anything
 spec:
   type: microservice
-  lifecycle: 
+  lifecycle: development
   owner: CEO
   system: COGNIWIDE
