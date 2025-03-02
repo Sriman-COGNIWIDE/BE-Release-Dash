@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ingress-nginx
+  description: desc
+  tags:
+    - anything
+spec:
+  type: microservice
+  lifecycle: 
+  owner: CEO
+  system: COGNIWIDE
