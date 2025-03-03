@@ -7,7 +7,6 @@ metadata:
   links:
     - title: GitHub Repository
       url: https://github.com/Sriman-COGNIWIDE/BE-Release-Dash
-    - title: Live Dashboard
       url: http://localhost:3001
   annotations:
     backstage.io/techdocs-ref: dir:.
