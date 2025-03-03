@@ -11,7 +11,6 @@ metadata:
       url: http://localhost:3001
   annotations:
     backstage.io/techdocs-ref: dir:.
-    backstage.io/jenkins-only: 'true'
     github.com/project-slug: Sriman-COGNIWIDE/BE-Release-Dash
     jenkins.io/job-full-name: Backend-Projects/BE_RD
     backstage.io/kubernetes-id: aks-pe-poc
