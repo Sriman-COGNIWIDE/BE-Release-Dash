@@ -13,7 +13,7 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     backstage.io/jenkins-only: 'true'
     github.com/project-slug: Sriman-COGNIWIDE/BE-Release-Dash
-    jenkins.io/job-full-name: job/Backend-Projects/job/BE_RD/
+    jenkins.io/job-full-name: Backend-Projects/BE_RD
     backstage.io/kubernetes-id: aks-pe-poc
     backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=mongo'
 spec:
