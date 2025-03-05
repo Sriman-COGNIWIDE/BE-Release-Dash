@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: k8s
+  description: |
+    A release dashboard to see the images running in the clusters
+  links:
+    - title: GitHub Repository
+      url: https://github.com/Sriman-COGNIWIDE/BE-Release-Dash
+    - title: Live Dashboard
+      url: http://localhost:3001
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: Sriman-COGNIWIDE/BE-Release-Dash
+    jenkins.io/job-full-name: Backend-Projects/BE_RD
+    backstage.io/kubernetes-id: aks-pe-poc
+    backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=mongo'
+spec:
+  type: service
+  owner: rd-team
+  lifecycle: production
+  system: PairPoint
+  providesApis:
+    - RD-api
