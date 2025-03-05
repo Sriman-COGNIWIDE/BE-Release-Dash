@@ -15,7 +15,7 @@ metadata:
     jenkins.io/job-full-name: Backend-Projects/BE_RD
     backstage.io/kubernetes-id: aks-pe-poc
     backstage.io/kubernetes-namespace: harbor
-    backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance:harbor'
+    backstage.io/kubernetes-label-selector: 'kubernetes.io/metadata.name=harbor'
 spec:
   type: service
   owner: rd-team
