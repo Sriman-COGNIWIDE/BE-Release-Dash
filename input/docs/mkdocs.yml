@@ -1,28 +1,14 @@
-site_name: Release Dashboard Documentation
-site_url: https://github.com/Sriman-COGNIWIDE/BE-Release-Dash
-repo_url: https://github.com/Sriman-COGNIWIDE/BE-Release-Dash
-docs_dir: docs
-site_dir: site
-
-theme:
-  name: material
-  features:
-    - navigation.tabs
-    - navigation.sections
-    - search.suggest
-    - search.highlight
-
-plugins:
-  - techdocs-core
-  - search
+site_name: Release Dashboard Docs
+site_description: Documentation for Release Dashboard
 
 nav:
-  - Overview: 
-      - Home: index.md
-      - Introduction: introduction.md
-  - Getting Started:
-      - Setup: setup.md
-      - Configuration: configuration.md
-  - Features:
-      - Dashboard Details: dashboard.md
-  - Troubleshooting: troubleshooting.md
+  - Home: index.md
+
+docs_dir: input/docs
+site_dir: site
+
+repo_url: https://github.com/Sriman-COGNIWIDE/BE-Release-Dash
+edit_uri: edit/main/input/docs/
+
+theme:
+  name: mkdocs
