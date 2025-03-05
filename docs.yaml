@@ -4,7 +4,7 @@ metadata:
   name: DOCS-docs
   description: Release Dashboard DOCS
   annotations:
-    backstage.io/techdocs-ref: url:https://github.com/Sriman-COGNIWIDE/BE-Release-Dash/blob/main/input/docs/index.md
+    backstage.io/techdocs-ref: url:https://github.com/Sriman-COGNIWIDE/BE-Release-Dash/tree/main/input/docs
 spec:
   type: service
   lifecycle: experimental
