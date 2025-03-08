@@ -1,23 +1,20 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: plugin-fefefefe
-  description: sdfafsd
+  name: admin-3
+  description: new
   tags:
     - asdfasdf
   links:
     - title: Source Repository
-      url: https://github.com/Sriman-COGNIWIDE/BE-Release-Dash
+      url: https://github.com/cogniwide/cogniLoom-Weft/blob/frontend-removal/app-config.yaml
     - title: Link Provided
-      url: https://github.com/Sriman-COGNIWIDE/BE-Release-Dash
+      url: https://github.com/cogniwide/cogniLoom-Weft/blob/frontend-removal/app-config.yaml
   annotations:
     backstage.io/kubernetes-id: asdfasdf
-    backstage.io/techdocs-ref: url:asdfasfd 
+    backstage.io/techdocs-ref: url:https://github.com/Sriman-COGNIWIDE/BE-Release-Dash/blob/main/input/docs/index.md 
 spec:
   type: Service
   lifecycle: Production
-  owner: sdf
+  owner: sriman
   system: Cogniwide
-  definition: |
-    This is an inline definition of the service.
-    You can include multiple lines of text here without using $text.
