@@ -18,5 +18,7 @@ spec:
   lifecycle: Production
   owner: sdf
   system: Cogniwide
-  definition: 
-    $text: asdfasdfasdfasfd 
+  definition: |
+    # Service Definition
+    This is an inline definition of the service.
+    You can include multiple lines of text here without using $text.
