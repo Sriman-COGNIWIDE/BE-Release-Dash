@@ -19,6 +19,5 @@ spec:
   owner: sdf
   system: Cogniwide
   definition: |
-    # Service Definition
     This is an inline definition of the service.
     You can include multiple lines of text here without using $text.
