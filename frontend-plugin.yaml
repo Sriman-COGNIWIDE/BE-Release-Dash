@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: plugin-fefefefe
+  description: sdfafsd
+  tags:
+    - asdfasdf
+  links:
+    - title: Source Repository
+      url: asdfasfdasdf
+    - title: Link Provided
+      url: asdfasfdasdf
+  annotations:
+    backstage.io/kubernetes-id: asdfasdf
+    backstage.io/techdocs-ref: url:asdfasfd 
+spec:
+  type: Service
+  lifecycle: Production
+  owner: sdf
+  system: Cogniwide
+  definition: 
+    $text: asdfasdfasdfasfd 
