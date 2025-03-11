@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Sriman-0-8-6
+  annotations:
+spec:
+  type: Service
+  lifecycle: Production
+  owner: sdf
+  system: Cogniwide
