@@ -1,10 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Sriman-0-8-6
+  name: Sriman-jenkins-form-job
   annotations:
+    jenkins.io/job-full-name: Release_Dashboard/Dashboard_Bkend_CI
 spec:
-  type: Service
+  type: Website
   lifecycle: Production
-  owner: sdf
-  system: Cogniwide
+  owner: sriman
+  system: ss
