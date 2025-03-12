@@ -1,18 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: sample_techdocs
-  description: jsdfjdsfj
-  tags:
-    - java
-    - sql
-  links:
-    - title: Source Repository
-      url: https://github.com/in28minutes/java-tutorial-for-beginners
+  name: swagger-check
   annotations:
-    backstage.io/techdocs-ref: url:https://raw.githubusercontent.com/in28minutes/java-tutorial-for-beginners/master/README.md 
 spec:
-  type: 
-  lifecycle: Testing
-  owner: vidhya
-  system: sample
+  type: service
+  lifecycle: Development
+  owner: sdf
+  system: Cogniwide
+  definition: 
+    $text: https://raw.githubusercontent.com/VIVEK-cogniwide/Event-managment-system/main/swagger-api.yaml 
