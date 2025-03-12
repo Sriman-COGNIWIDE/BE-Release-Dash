@@ -1,11 +1,18 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Sriman-jenkins-form-job
+  name: sample_techdocs
+  description: jsdfjdsfj
+  tags:
+    - java
+    - sql
+  links:
+    - title: Source Repository
+      url: https://github.com/in28minutes/java-tutorial-for-beginners
   annotations:
-    jenkins.io/job-full-name: Release_Dashboard/Dashboard_Bkend_CI
+    backstage.io/techdocs-ref: url:https://raw.githubusercontent.com/in28minutes/java-tutorial-for-beginners/master/README.md 
 spec:
-  type: Website
-  lifecycle: Production
-  owner: sriman
-  system: ss
+  type: 
+  lifecycle: Testing
+  owner: vidhya
+  system: sample
