@@ -1,12 +1,12 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: swagger-check
+  name: Sriman
   annotations:
 spec:
   type: service
-  lifecycle: Development
+  lifecycle: Testing
   owner: sdf
   system: Cogniwide
   definition: 
-    $text: https://raw.githubusercontent.com/VIVEK-cogniwide/Event-managment-system/main/swagger-api.yaml 
+    $text: https://github.com/VIVEK-cogniwide/Event-managment-system/blob/main/swagger-api.yaml 
