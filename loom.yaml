@@ -2,10 +2,10 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: CogniLoom
-  description: Cogniloom is an IDP Tool Being developed.
+  description: CogniLoom enables organizations to build internal developer portals (IDPs) to enhance developer productivity and streamline the software development lifecycle. 
   tags:
-    - Loom
-    - Dev
+    - loom
+    - dev
   links:
     - title: Source Repository
       url: https://github.com/cogniwide/backstage/tree/custom-app
