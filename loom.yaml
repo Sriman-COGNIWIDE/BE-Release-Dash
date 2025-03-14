@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: CogniLoom
+  description: Cogniloom is an IDP Tool Being developed.
+  tags:
+    - Loom
+    - Dev
+  links:
+    - title: Source Repository
+      url: https://github.com/cogniwide/backstage/tree/custom-app
+    - title: Link Provided
+      url: loom.cogniyug.com
+  annotations:
+    github.com/project-slug: cogniwide/backstage
+    backstage.io/kubernetes-id: aks-pe-poc
+    backstage.io/kubernetes-namespace:  backstage 
+    backstage.io/techdocs-ref: url:https://raw.githubusercontent.com/cogniwide/backstage/custom-app/README.md 
+spec:
+  type: service
+  lifecycle: Development
+  owner: Mathumathi
+  system: Cogniwide
