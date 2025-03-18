@@ -18,7 +18,7 @@ metadata:
     backstage.io/linguist: https://github.com/Sriman-COGNIWIDE/BE-Release-Dash
 spec:
   type: service
-  owner: guest
+  owner: user:default/guest
   lifecycle: production
   system: PairPoint
   providesApis:
