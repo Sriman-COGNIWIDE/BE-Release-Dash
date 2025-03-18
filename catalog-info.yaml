@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Release-Dashboard
+  name: Release-Dashboard-1
   description: |
     A release dashboard to see the images running in the clusters
   links:
