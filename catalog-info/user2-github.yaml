@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: user2-github
+  annotations:
+spec:
+  type: service
+  lifecycle: Testing
+  owner: sdf
+  system: Cogniwide
