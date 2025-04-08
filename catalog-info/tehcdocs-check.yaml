@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: tehcdocs-check
+  annotations:
+spec:
+  type: service
+  lifecycle: Testing
+  owner: as
+  system: as
