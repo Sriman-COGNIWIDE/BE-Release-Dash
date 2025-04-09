@@ -10,27 +10,9 @@ This microservice interacts with data storage systems as described below. Unders
 
 This hosting approach aligns with our infrastructure strategy and provides the necessary balance of control, performance, and operational overhead.
 
-## Additional AWS Services
-
-a
-
-These AWS services provide additional functionality for our microservice.
-
-## Additional Azure Services
-
-a
-
-These Azure services provide additional functionality for our microservice.
-
-## Additional GCP Services
-
-a
-
-These GCP services provide additional functionality for our microservice.
-
 ### Cloud Services
 
-**AWS_RDS, AWS_Other, Azure_SQLDatabase, Azure_Other, GCP_CloudSQL, GCP_Other**
+**AWS_RDS, Azure_SQLDatabase, GCP_Datastore**
 
 These specific managed services offer the capabilities required for our application's data needs while minimizing operational complexity.
 
