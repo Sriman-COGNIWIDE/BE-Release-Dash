@@ -4,12 +4,6 @@
 
 This microservice interacts with data storage systems as described below. Understanding the database architecture is crucial for performance tuning, troubleshooting, and evolving the data model over time.
 
-### Database Type
-
-**PostgreSQL**
-
-This database technology was selected to optimally support the service's data requirements and access patterns.
-
 ### Hosting Model
 
 **Local**
@@ -18,21 +12,27 @@ This hosting approach aligns with our infrastructure strategy and provides the n
 
 ## Additional AWS Services
 
-as
+a
 
 These AWS services provide additional functionality for our microservice.
 
 ## Additional Azure Services
 
-as
+a
 
 These Azure services provide additional functionality for our microservice.
 
 ## Additional GCP Services
 
-as
+a
 
 These GCP services provide additional functionality for our microservice.
+
+### Cloud Services
+
+**AWS_RDS, AWS_Other, Azure_SQLDatabase, Azure_Other, GCP_CloudSQL, GCP_Other**
+
+These specific managed services offer the capabilities required for our application's data needs while minimizing operational complexity.
 
 ## Deployment Status
 
