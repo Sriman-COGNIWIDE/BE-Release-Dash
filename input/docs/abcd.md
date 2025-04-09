@@ -6,7 +6,7 @@ This microservice interacts with data storage systems as described below. Unders
 
 ### Database Type
 
-**MySQL**
+**PostgreSQL**
 
 This database technology was selected to optimally support the service's data requirements and access patterns.
 
@@ -15,6 +15,24 @@ This database technology was selected to optimally support the service's data re
 **Local**
 
 This hosting approach aligns with our infrastructure strategy and provides the necessary balance of control, performance, and operational overhead.
+
+### Database Libraries & ORM
+
+sss
+
+These libraries facilitate database access from application code, providing appropriate abstractions and performance optimizations.
+
+### Database Migration Strategy
+
+**Tool: sss**
+
+This approach to schema evolution ensures consistent database states across environments and facilitates version control of database changes.
+
+### Database Setup Instructions
+
+ssss
+
+Following these instructions precisely will ensure proper database initialization and configuration for development and testing purposes.
 
 ## References and Resources
 
