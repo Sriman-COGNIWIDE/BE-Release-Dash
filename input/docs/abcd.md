@@ -16,6 +16,24 @@ This database technology was selected to optimally support the service's data re
 
 This hosting approach aligns with our infrastructure strategy and provides the necessary balance of control, performance, and operational overhead.
 
+## Additional AWS Services
+
+as
+
+These AWS services provide additional functionality for our microservice.
+
+## Additional Azure Services
+
+as
+
+These Azure services provide additional functionality for our microservice.
+
+## Additional GCP Services
+
+as
+
+These GCP services provide additional functionality for our microservice.
+
 ## Deployment Status
 
 **No**
