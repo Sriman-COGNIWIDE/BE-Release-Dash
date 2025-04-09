@@ -16,24 +16,6 @@ This database technology was selected to optimally support the service's data re
 
 This hosting approach aligns with our infrastructure strategy and provides the necessary balance of control, performance, and operational overhead.
 
-### Database Libraries & ORM
-
-ss
-
-These libraries facilitate database access from application code, providing appropriate abstractions and performance optimizations.
-
-### Database Migration Strategy
-
-**Tool: ss**
-
-This approach to schema evolution ensures consistent database states across environments and facilitates version control of database changes.
-
-### Database Setup Instructions
-
-ss
-
-Following these instructions precisely will ensure proper database initialization and configuration for development and testing purposes.
-
 ## References and Resources
 
 The following resources provide additional information and reference materials related to this microservice:
