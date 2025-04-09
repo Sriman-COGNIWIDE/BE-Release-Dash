@@ -16,6 +16,10 @@ This database technology was selected to optimally support the service's data re
 
 This hosting approach aligns with our infrastructure strategy and provides the necessary balance of control, performance, and operational overhead.
 
+## Deployment Status
+
+**No**
+
 ## References and Resources
 
 The following resources provide additional information and reference materials related to this microservice:
