@@ -18,19 +18,19 @@ This hosting approach aligns with our infrastructure strategy and provides the n
 
 ### Database Libraries & ORM
 
-as
+tada 
 
 These libraries facilitate database access from application code, providing appropriate abstractions and performance optimizations.
 
 ### Database Migration Strategy
 
-**Tool: as**
+**Tool: tada**
 
 This approach to schema evolution ensures consistent database states across environments and facilitates version control of database changes.
 
 ### Database Setup Instructions
 
-as
+tada 
 
 Following these instructions precisely will ensure proper database initialization and configuration for development and testing purposes.
 
