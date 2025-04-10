@@ -12,31 +12,13 @@ This hosting approach aligns with our infrastructure strategy and provides the n
 
 ### Cloud Services
 
-**AWS Services:** AWS_Keyspaces
+**AWS Services:** AWS_ElastiCache, sa
 
-**Azure Services:** Azure_SynapseAnalytics
+**Azure Services:** Azure_SQLDatabase, as
 
-**GCP Services:** GCP_Bigtable
+**GCP Services:** GCP_CloudSpanner, sa
 
 These specific managed services offer the capabilities required for our application's data needs while minimizing operational complexity.
-
-## Additional AWS Services
-
-a
-
-These AWS services provide additional functionality for our microservice.
-
-## Additional Azure Services
-
-a
-
-These Azure services provide additional functionality for our microservice.
-
-## Additional GCP Services
-
-a
-
-These GCP services provide additional functionality for our microservice.
 
 ## Deployment Status
 
