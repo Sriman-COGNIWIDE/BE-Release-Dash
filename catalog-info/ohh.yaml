@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ohh
+  annotations:
+spec:
+  type: service
+  lifecycle: Development
+  owner: asdas
+  system: asd
