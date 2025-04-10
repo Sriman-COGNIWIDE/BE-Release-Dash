@@ -10,6 +10,16 @@ This microservice interacts with data storage systems as described below. Unders
 
 This hosting approach aligns with our infrastructure strategy and provides the necessary balance of control, performance, and operational overhead.
 
+### Cloud Services
+
+**AWS Services:** AWS_Keyspaces
+
+**Azure Services:** Azure_SynapseAnalytics
+
+**GCP Services:** GCP_Bigtable
+
+These specific managed services offer the capabilities required for our application's data needs while minimizing operational complexity.
+
 ## Additional AWS Services
 
 a
@@ -18,21 +28,15 @@ These AWS services provide additional functionality for our microservice.
 
 ## Additional Azure Services
 
-s
+a
 
 These Azure services provide additional functionality for our microservice.
 
 ## Additional GCP Services
 
-s
+a
 
 These GCP services provide additional functionality for our microservice.
-
-### Cloud Services
-
-**AWS_DynamoDB, AWS_Other, Azure_HDInsight, Azure_Other, GCP_CloudSQL, GCP_Other**
-
-These specific managed services offer the capabilities required for our application's data needs while minimizing operational complexity.
 
 ## Deployment Status
 
