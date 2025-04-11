@@ -34,15 +34,33 @@ These supporting tools and services facilitate development, testing, monitoring,
 
 The following environment variables must be properly configured for the service to function as expected. These variables control various aspects of the service's behavior, including connectivity to external systems, feature toggles, and operational parameters.
 
-### asd
-
-asd
-
-### asd
-
-asd
-
 Environment variables should be set according to the deployment environment requirements. Please consult with the operations team for proper configuration values in production environments.
+
+## Database Information
+
+This microservice interacts with data storage systems as described below. Understanding the database architecture is crucial for performance tuning, troubleshooting, and evolving the data model over time.
+
+### Database Type
+
+**PostgreSQL**
+
+This database technology was selected to optimally support the service's data requirements and access patterns.
+
+### Hosting Model
+
+**Local**
+
+This hosting approach aligns with our infrastructure strategy and provides the necessary balance of control, performance, and operational overhead.
+
+### Cloud Services
+
+**AWS Services:** AWS_RDS, as
+
+**Azure Services:** Azure_SynapseAnalytics, as
+
+**GCP Services:** GCP_CloudSpanner, as
+
+These specific managed services offer the capabilities required for our application's data needs while minimizing operational complexity.
 
 ## Deployment Status
 
