@@ -30,6 +30,20 @@ sdf
 
 These supporting tools and services facilitate development, testing, monitoring, and operational excellence for the microservice. They comprise an essential part of the development ecosystem surrounding this service.
 
+## Environment Variables
+
+The following environment variables must be properly configured for the service to function as expected. These variables control various aspects of the service's behavior, including connectivity to external systems, feature toggles, and operational parameters.
+
+### asd
+
+asd
+
+### asd
+
+asd
+
+Environment variables should be set according to the deployment environment requirements. Please consult with the operations team for proper configuration values in production environments.
+
 ## Deployment Status
 
 **No**
@@ -48,5 +62,5 @@ This section provides key classification and organizational metadata about the m
 - **Lifecycle Stage:** Testing
 ---
 
-*This documentation was generated automatically based on service registration data. Last updated: 2025-04-10*
+*This documentation was generated automatically based on service registration data. Last updated: 2025-04-11*
 
