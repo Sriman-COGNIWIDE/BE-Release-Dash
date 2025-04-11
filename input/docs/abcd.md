@@ -42,7 +42,11 @@ This microservice interacts with data storage systems as described below. Unders
 
 ### Cloud Services
 
-**Azure Services:** Azure_SQLDatabase
+**AWS Services:** AWS_RDS, a
+
+**Azure Services:** Azure_MySQL, a
+
+**GCP Services:** GCP_CloudSpanner, a
 
 These specific managed services offer the capabilities required for our application's data needs while minimizing operational complexity.
 
