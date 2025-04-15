@@ -8,71 +8,31 @@ This microservice interacts with data storage systems as described below. Unders
 
 #### Database Type
 
-**MySQL**
+**PostgreSQL**
 
 This database technology was selected to optimally support the service's data requirements and access patterns.
 
 #### Hosting Model
 
-**Local**
+**Cloud**
 
 This hosting approach aligns with our infrastructure strategy and provides the necessary balance of control, performance, and operational overhead.
 
-#### Database Libraries & ORM
+#### Cloud Providers
 
-aaa
+**AWS**
 
-These libraries facilitate database access from application code, providing appropriate abstractions and performance optimizations.
+Our database infrastructure leverages these cloud providers' capabilities to ensure reliability, scalability, and geographic distribution as needed.
 
-#### Database Migration Strategy
+#### Cloud Services
 
-**Tool: a**
+**AWS Services:** AWS_RDS, AWS_Aurora
 
-This approach to schema evolution ensures consistent database states across environments and facilitates version control of database changes.
-
-#### Database Setup Instructions
-
-a
-
-Following these instructions precisely will ensure proper database initialization and configuration for development and testing purposes.
+These specific managed services offer the capabilities required for our application's data needs while minimizing operational complexity.
 
 ---
 
 ### Database 2
-
-#### Database Type
-
-**MongoDB**
-
-This database technology was selected to optimally support the service's data requirements and access patterns.
-
-#### Hosting Model
-
-**Local**
-
-This hosting approach aligns with our infrastructure strategy and provides the necessary balance of control, performance, and operational overhead.
-
-#### Database Libraries & ORM
-
-as
-
-These libraries facilitate database access from application code, providing appropriate abstractions and performance optimizations.
-
-#### Database Migration Strategy
-
-**Tool: as**
-
-This approach to schema evolution ensures consistent database states across environments and facilitates version control of database changes.
-
-#### Database Setup Instructions
-
-as
-
-Following these instructions precisely will ensure proper database initialization and configuration for development and testing purposes.
-
----
-
-### Database 3
 
 #### Database Type
 
@@ -85,24 +45,6 @@ This database technology was selected to optimally support the service's data re
 **Local**
 
 This hosting approach aligns with our infrastructure strategy and provides the necessary balance of control, performance, and operational overhead.
-
-#### Database Libraries & ORM
-
-sassssssssssss
-
-These libraries facilitate database access from application code, providing appropriate abstractions and performance optimizations.
-
-#### Database Migration Strategy
-
-**Tool: s**
-
-This approach to schema evolution ensures consistent database states across environments and facilitates version control of database changes.
-
-#### Database Setup Instructions
-
-ss
-
-Following these instructions precisely will ensure proper database initialization and configuration for development and testing purposes.
 
 ## Deployment Status
 
@@ -118,7 +60,7 @@ This section provides key classification and organizational metadata about the m
 
 - **Organization:** Cogniwide
 - **Owner:** asdf
-- **Type:** Not specified
+- **Type:** service
 - **Lifecycle Stage:** Experimental
 ---
 
