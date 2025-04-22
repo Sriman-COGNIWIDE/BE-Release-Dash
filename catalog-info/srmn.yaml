@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: srmn
+  annotations:
+spec:
+  type: service
+  lifecycle: Testing
+  owner: asdfasfd
+  system: Cogniwide
