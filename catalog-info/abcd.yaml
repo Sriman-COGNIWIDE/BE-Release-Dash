@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: abcd
   annotations:
-    backstage.io/techdocs-ref: url:https://github.com/Sriman-COGNIWIDE/BE-Release-Dash/blob/main/input/docs/index.md 
+    backstage.io/techdocs-ref: url:https://github.com/Sriman-COGNIWIDE/BKSTG-PORTAL/blob/main/input/docs/abcd.md 
 spec:
   type: service
   lifecycle: Testing
