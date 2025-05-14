@@ -83,7 +83,6 @@ All specified tests must pass before deploying this service to production.
 This section provides key classification and organizational metadata about the microservice.
 
 - **Service Name:** New-srvc
-- **Created By:** token:eyJ0eXAi
 - **Created At:** 2025-05-14T16:07:12.539Z
 - **Closure Date:** 2025-05-15
 ---
