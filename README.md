@@ -1,1 +1,5 @@
-| NAME | READY | STATUS | RESTARTS | AGE |\n| --- | --- | --- | --- | --- |\n| backstage-6f4668b84f-sxsl8 | 1/1 | Running | 0 | 13d |\n| loom-postgres-postgresql-0 | 1/1 | Running | 3 (38d ago) | 38d |
+| Name       | Role        | Location   |
+|------------|-------------|------------|
+| Alice      | Developer   | New York   |
+| Bob        | Designer    | London     |
+| Charlie    | Manager     | San Francisco |
