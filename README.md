@@ -1,5 +1,1 @@
-| Name       | Role        | Location       | Skills                     |
-|:-----------|:------------|:---------------|:---------------------------|
-| **Alice**  | Developer   | New York       | React, Node.js, GraphQL    |
-| **Bob**    | Designer    | London         | Figma, Photoshop, UX/UI    |
-| **Charlie**| Manager     | San Francisco  | Leadership, Strategy, Agile|
+| NAME                       | READY | STATUS  | RESTARTS    | AGE |\n| -------------------------- | ----- | ------- | ----------- | --- |\n| backstage-6f4668b84f-sxsl8 | 1/1   | Running | 0           | 13d |\n| loom-postgres-postgresql-0 | 1/1   | Running | 3 (38d ago) | 38d |\n\n** Summary**: 2 item(s) displayed across 5 column(s)\n\n---
