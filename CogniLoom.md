@@ -13,7 +13,7 @@ CogniLoom IDP is an open-source platform that serves as the central nervous syst
 ### 📚 MICROSERVICES
 
 - **Centralized Service Registry**: Keep track of all microservices, libraries, and infrastructure components
-- **Component Details**: View ownership, documentation, dependencies, and health metrics at a glance
+- **Component Details**: View ownership, documentation, dependencies, and health metrics at a glance 
 - **Service Templates**: Create new services using organization-approved templates
 
 ### 🛠️ SELF-SERVICE Portal
